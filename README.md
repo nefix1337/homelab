@@ -1,7 +1,14 @@
 # Homelab - dokumetnacja 
 
+![Proxmox VE](https://img.shields.io/badge/Proxmox_VE-E57000?logo=proxmox&logoColor=white)
+![Windows Server 2022](https://img.shields.io/badge/Windows_Server_2022-0078D4)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?logo=wireguard&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Zabbix](https://img.shields.io/badge/Zabbix-D40000)
+![GLPI](https://img.shields.io/badge/GLPI-002F6C)
 
-# Status: w trakcie tworzenia
+**Status: w trakcie tworzenia**
 
 # Założenia:
 Domowe środowisko do eksperymentów, w którym rozwijam umiejętności z zakresu administracji systemami, sieci i bezpieczeństwa. Odtwarzam w nim podstawowe elementy infrastruktury IT: domenę Active Directory, zdalny dostęp przez VPN, monitoring oraz system helpdesk z ewidencją sprzętu.
@@ -37,3 +44,22 @@ Domowe środowisko do eksperymentów, w którym rozwijam umiejętności z zakres
 
 - Obsługa zgłoszeń: kategorie, priorytety, przypisywanie do osób
 - Ewidencja sprzętu i oprogramowania
+
+
+
+## Architektura
+
+...
+
+
+
+### Sprzęt
+
+| Element | Szczegóły |
+|---|---|
+| Procesor | Intel Core i3-8100 (4 rdzenie) |
+| Pamięć | 8 GB DDR4 |
+| SSD 256 GB | system, dyski maszyn wirtualnych i kontenerów |
+| HDD 1 TB | kopie zapasowe, obrazy ISO |
+| Łącze | światłowód Orange: ONT + router Funbox 3 |
+| VPS | hub WireGuard |
